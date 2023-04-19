@@ -15,9 +15,9 @@ First start with downloading the code and and write npm install on code editor, 
 
 3.Use this http://localhost:8080/tasks/create and add the token in authorization area which is recieved in second point and create the task
 
-Use this http://localhost:8080/tasks/edit/:id to edit the task you need to add data in body whatevver you want to change (title, description, status) also add jwt token in header
+4.Use this http://localhost:8080/tasks/edit/:id to edit the task you need to add data in body whatevver you want to change (title, description, status) also add jwt token in header
 5.Use this http://localhost:8080/tasks/destroy/:id to delete task from DB also add jwt token in header
 
-Use this http://localhost:8080/tasks to get all the tasks created by different users
+6.Use this http://localhost:8080/tasks to get all the tasks created by different users
 
-Use this http://localhost:8080/tasks/search/:key search different task pased on the key (it might be title, description or status).also add jwt token in header.
+7.Use this http://localhost:8080/tasks/search/:key search different task pased on the key (it might be title, description or status).also add jwt token in header.
